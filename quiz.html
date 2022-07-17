@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>quiz app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <video
+            autoplay
+            muted
+            loop
+            src="pexels-weldi-studio-design-8675550.mp4">
+        </video>
+           <div class="start_box">
+                <h2>Welcome to the Quiz!!!</h2>
+                <div class="icon"><img src="cdd20-9-dkDEXWGzI-unsplash.jpg"></div>
+
+                <div class="start_btn">
+                    <button>Start Quiz</button>
+                </div>
+           </div>
+        <div class="info_box">
+              <div class="info_title">
+                   <span>Some rules of this Quiz</span>
+              </div>
+              <div class="info_list">
+                    <div class="info">1. You should not use <span> Google</span>.</div>
+                    <div class="info">2. You can't exit from the Quiz while you're playing.</div>
+                    <div class="info">3. You will get the points on the basis of your correct answers.</div>
+                    <div class="info">4. If you select any option there is no going back. </div>
+                    <div class="info">5. Now Go, <span> All the Best </span> .</div>
+              </div>
+              <div class="buttons">
+                    <button class="quit">Exit Quiz</button>
+                    <button class="restart">Continue</button>
+
+              </div>
+        </div>   
+
+        <div class="quiz_box">
+            <header>
+                SINGLE CORRECT MCQ
+            </header>
+            <section>
+            <div class="que_text">
+               <!--<span>What does Html stand for?</span> --> 
+            </div>
+           
+            <div class="option_list">
+              <!--<div class="option">
+                    <span>Hyper text Preprocessor</span>
+                    <div class="icon tick"><ion-icon name="checkbox-outline"></ion-icon></div>
+                </div>
+                <div class="option">
+                    <span>Hyper text Markup language</span>
+                    <div class="icon cross"><ion-icon name="close-circle-outline"></ion-icon></div>
+                </div>
+                <div class="option">
+                    <span>Hyper text makeup language</span>
+                    
+                </div>
+                <div class="option">
+                    <span>Hyper text madeup language</span>
+                    
+                </div>-->  
+            </div>
+            </section>
+            <footer>
+                 <div class="total_que">
+                   <!--<span><p>2</p>of<p>5</p>Questions</span>--> 
+                 </div>
+                 <button class="next_btn">
+                    Next Que
+                 </button>
+            </footer>
+        </div>
+        
+        <div class="result_box">
+              <div class="icon"><img src="hand_golden_cup_01.jpg"></div>
+              <div class="complete_text">Quiz Completed.</div>
+              <div class="score_text">
+               <!--<span>You scored<p>2</p>out of<p>5</p></span>-->   
+              </div>
+              <div class="buttons">
+                  <button class="quit">Quit</button>
+              </div>
+        </div>
+
+        <script src="quiz.js" async defer></script>
+        <script src="questions.js" async defer></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
